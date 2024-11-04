@@ -6,9 +6,7 @@ import auth from './auth';
 
 function App() {
   return (
-    <Routes >
-      <Route path="https://new-ap95wwxbo-blueand13s-projects.vercel.app/" element={auth()} ></Route>
-    </Routes>
+    auth()
   );
 }
 
